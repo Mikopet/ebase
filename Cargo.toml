@@ -1,6 +1,17 @@
 [package]
 name = "ebase"
 version = "0.1.0"
+authors = ["Peter MIKOLA <mikopet@gmail.com>"]
 edition = "2021"
+
+description = "Drop-in replacement for base64 with emojis"
+readme = "README.md"
+repository = "https://github.com/Mikopet/ebase"
+license = "MIT"
+
+keywords = ["emoji", "base64", "utf8", "encode", "decode"]
+categories = ["encoding", "command-line-utilities", "algorithms"]
+
+default-run = "ebase"
 
 [dependencies]
